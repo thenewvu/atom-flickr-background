@@ -1,0 +1,19 @@
+{
+  "name": "flickr-background",
+  "main": "./lib/flickr-background",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "flickr-background:toggle"
+  },
+  "repository": "https://github.com/atom/flickr-background",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "flickrapi": "^0.4.2",
+    "request": "^2.72.0"
+  }
+}

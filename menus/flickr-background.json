@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle flickr-background",
+        "command": "flickr-background:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "flickr-background",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "flickr-background:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "flickr-background:toggle"
+    "ctrl-alt-o": "flickr-background:toggle",
+    "ctrl-alt-i": "flickr-background:show-photo-info",
+    "ctrl-alt-n": "flickr-background:next-photo"
   }
 }

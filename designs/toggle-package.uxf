@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>80</y>
+      <w>24</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>lt=.
+group=4</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>208</x>
+      <y>96</y>
+      <w>16</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>168</x>
+      <y>64</y>
+      <w>96</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>_:Package_
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>352</x>
+      <y>64</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>_:BackgroundView_
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>80</y>
+      <w>24</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>lt=.
+group=5</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>104</x>
+      <y>96</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1. toggle()</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>392</x>
+      <y>136</y>
+      <w>16</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>120</y>
+      <w>192</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1. toggle()</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

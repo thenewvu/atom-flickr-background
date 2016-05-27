@@ -3,10 +3,38 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
-
-.flickr-background {
+/**
+ * Highlight editor odd lines.
+ * https://github.com/atom/atom/issues/4829
+ */
+.generate-stripes(@i:0) when (@i < 10) {
+  atom-text-editor:not([mini])::shadow .lines .line.cursor-line[data-screen-row$="@{i}"],
+  atom-text-editor:not([mini])::shadow .lines .line[data-screen-row$="@{i}"] {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .generate-stripes((@i + 2));
 }
-
+.generate-stripes();
+/**
+ * Style for background element.
+ */
+.flickr-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.2;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10000;
+}
+/**
+ * Style to hide background element.
+ */
 .flickr-background-hided {
   display: none;
 }

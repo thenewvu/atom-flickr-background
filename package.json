@@ -1,6 +1,6 @@
 {
   "name": "flickr-background",
-  "main": "./lib/flickr-background",
+  "main": "./lib/index",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
@@ -13,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "flickrapi": "^0.4.2",
+    "lodash": "^4.13.1",
     "request": "^2.72.0"
   }
 }

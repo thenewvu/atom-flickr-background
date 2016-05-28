@@ -1,5 +1,6 @@
 {
   "name": "flickr-background",
+  "author": "Vu Le <thenewvu@gmail.com>",
   "main": "./lib/index",
   "version": "0.1.0",
   "description": "Change your Atom background by awesome photos comes from Flickr",

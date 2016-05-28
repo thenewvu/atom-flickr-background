@@ -1,13 +1,10 @@
 {
   "name": "flickr-background",
   "main": "./lib/index",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "flickr-background:toggle"
-  },
-  "repository": "https://github.com/atom/flickr-background",
+  "version": "0.1.0",
+  "description": "Change your Atom background by awesome photos comes from Flickr",
+  "keywords": ["background", "image", "photo", "flickr", "theme", "ui"],
+  "repository": "https://github.com/thenewvu/atom-flickr-background",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

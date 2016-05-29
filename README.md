@@ -13,7 +13,9 @@ Change your Atom background by awesome photos comes from Flickr
   "atom-workspace": {
     "ctrl-alt-o": "flickr-background:toggle",
     "ctrl-alt-i": "flickr-background:show-photo-info",
-    "ctrl-alt-n": "flickr-background:next-photo"
+    "ctrl-alt-n": "flickr-background:next-photo",
+    "ctrl-alt-+": "flickr-background:increse-opacity",
+    "ctrl-alt--": "flickr-background:decrese-opacity"
   }
 }
 ```

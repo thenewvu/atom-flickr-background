@@ -1,3 +1,15 @@
+## 0.3.3
+
+* Set default background opacity to 0.5
+
+## 0.3.2
+
+* Added new screenshot
+
+## 0.3.1
+
+* Corrected readme
+
 ## 0.3.0
 
 * Fixed possible index out of range error

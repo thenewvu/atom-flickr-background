@@ -14,8 +14,8 @@ Change your Atom background by awesome photos comes from Flickr
     "ctrl-alt-o": "flickr-background:toggle",
     "ctrl-alt-i": "flickr-background:show-photo-info",
     "ctrl-alt-n": "flickr-background:next-photo",
-    "ctrl-alt-+": "flickr-background:increse-opacity",
-    "ctrl-alt--": "flickr-background:decrese-opacity"
+    "ctrl-alt->": "flickr-background:increse-opacity",
+    "ctrl-alt-<": "flickr-background:decrese-opacity"
   }
 }
 ```
@@ -42,6 +42,23 @@ Change your Atom background by awesome photos comes from Flickr
     description: 'In seconds. After each this amount of time, the background will change to a new photo',
     default: 60,
     minimum: 30
+  },
+  sort: {
+    type: 'string',
+    description: 'Order of showing photos',
+    enum: [
+      'date-posted-asc', 'date-posted-desc', 'date-taken-asc',
+      'date-taken-desc', 'interestingness-desc', 'interestingness-asc',
+      'relevance'
+    ],
+    default: 'interestingness-desc'
+  },
+  opacity: {
+    type: 'number',
+    description: 'Background opacity',
+    default: 0.2,
+    minimum: 0,
+    maximum: 1
   }
 }
 ```

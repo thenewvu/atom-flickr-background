@@ -10,6 +10,10 @@ Change your Atom background by awesome photos comes from Flickr
 
 ![flickr-background](https://raw.githubusercontent.com/thenewvu/atom-flickr-background/master/screenshots/Screenshot-2016-05-29-12-36-58.png "flickr-background")
 
+---
+
+![flickr-background](https://raw.githubusercontent.com/thenewvu/atom-flickr-background/master/screenshots/Screenshot-2016-05-29-14-42-44.png "flickr-background")
+
 ## Commands
 
 ```json

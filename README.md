@@ -70,3 +70,22 @@ Change your Atom background by awesome photos comes from Flickr
   }
 }
 ```
+
+## Optional
+
+If you want to highlight odd lines (just like screenshots), you can put this into your stylesheet:
+
+```less
+/**
+ * Highlight editor odd lines.
+ * https://github.com/atom/atom/issues/4829
+ */
+.generate-stripes(@i:0) when (@i < 10) {
+  atom-text-editor:not([mini])::shadow .lines .line.cursor-line[data-screen-row$="@{i}"],
+  atom-text-editor:not([mini])::shadow .lines .line[data-screen-row$="@{i}"] {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .generate-stripes((@i + 2));
+}
+.generate-stripes();
+```

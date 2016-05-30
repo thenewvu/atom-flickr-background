@@ -1,3 +1,8 @@
+## 0.3.4
+
+* Moved highlighting odd lines to optional options
+* Fixed missing returns that causes some crashes.
+
 ## 0.3.3
 
 * Set default background opacity to 0.5

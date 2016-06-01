@@ -17,11 +17,30 @@
   background-size: cover;
   overflow: hidden;
   pointer-events: none;
-  z-index: 9998;
+  z-index: 0;
 }
 /**
  * Style to hide background element.
  */
 .flickr-background-hided {
   display: none;
+}
+/**
+ * Style to turn backgrounds to transparent.
+ */
+atom-text-editor {
+  background-color: transparent !important;
+}
+atom-text-editor .gutter,
+atom-text-editor::shadow .gutter {
+  background-color: transparent !important;
+}
+.tab-bar {
+  background-color: transparent !important;
+}
+.settings-view *,
+atom-panel-container.bottom *,
+atom-panel-container.left *,
+atom-panel-container.right * {
+  background-color: transparent !important;
 }

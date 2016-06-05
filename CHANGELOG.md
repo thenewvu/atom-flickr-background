@@ -1,3 +1,19 @@
+## 0.4.3
+
+* Turned background of Markdown Preview view to transparent
+
+## 0.4.2
+
+* Fixed header of find-and-replace bar still has a solid background
+
+## 0.4.1
+
+* Optimized performance by avoiding wildcard css selectors
+
+## 0.4.0
+
+* Background now is under everything instead of overlaying everything
+
 ## 0.3.4
 
 * Moved highlighting odd lines to optional options

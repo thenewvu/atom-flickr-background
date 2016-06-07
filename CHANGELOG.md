@@ -1,3 +1,8 @@
+## 0.4.4
+
+* Fixed status bar has solid background in Atom 1.8
+* Fixed linter and auto-complete overlay view still has solid background
+
 ## 0.4.3
 
 * Turned background of Markdown Preview view to transparent

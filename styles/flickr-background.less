@@ -1,10 +1,9 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+
 /**
- * Style for background element.
+ * flickr-background view styles.
  */
 .flickr-background {
   position: fixed;
@@ -19,25 +18,12 @@
   pointer-events: none;
   z-index: 0;
 }
-/**
- * Style to hide background element.
- */
 .flickr-background-hided {
   display: none;
 }
 /**
- * Style to turn backgrounds to transparent.
+ * Hide background of elements on Atom.
  */
-atom-text-editor {
-  background-color: transparent !important;
-}
-atom-text-editor .gutter,
-atom-text-editor::shadow .gutter {
-  background-color: transparent !important;
-}
-.tab-bar {
-  background-color: transparent !important;
-}
 .btn,
 .find-and-replace .header,
 .markdown-preview,
@@ -50,6 +36,8 @@ atom-text-editor::shadow .gutter {
 .settings-view .package-readme pre,
 .settings-view .panels-item,
 .settings-view .table,
+.tab-bar,
+::-webkit-scrollbar-track,
 atom-overlay,
 atom-panel-container.bottom atom-panel,
 atom-panel-container.bottom linter-panel,
@@ -63,6 +51,32 @@ atom-panel-container.left .tree-view,
 atom-panel-container.right,
 atom-panel-container.right .tool-panel,
 atom-panel-container.right .tree-view,
+atom-text-editor,
+atom-text-editor .gutter,
+atom-text-editor::shadow .gutter,
 button {
   background-color: transparent !important;
+}
+/**
+ * Hide material-ui's tab bar side shadows.
+ */
+.panel-contrast:not(.tinted-tab-bar) .tab-bar:not([data-reactid])::after,
+.panel-contrast:not(.tinted-tab-bar) .tab-bar:not([data-reactid])::before,
+.tab-bar::after,
+.tab-bar::before {
+  background-image: inherit !important;
+  background-color: inherit !important;
+}
+/**
+ * Customize wrap guide.
+ */
+atom-text-editor::shadow .wrap-guide {
+  background-color: rgba(255, 255, 255, .1) !important;
+}
+/**
+ * Customize selection highlight.
+ */
+atom-text-editor .selection .region,
+atom-text-editor::shadow .selection .region {
+  background-color: rgba(255, 255, 255, .1) !important;
 }

@@ -1,7 +1,3 @@
-# flickr-background
-
-Change your Atom background by awesome photos comes from Flickr
-
 ## Screenshots
 
 ![flickr-background](https://raw.githubusercontent.com/thenewvu/atom-flickr-background/master/screenshots/Screenshot-2016-05-29-12-04-16.png "flickr-background")
@@ -73,7 +69,7 @@ Change your Atom background by awesome photos comes from Flickr
 
 ## Optional
 
-If you want to highlight odd lines (just like screenshots), you can put this into your stylesheet:
+If you want to highlight odd lines (like above screenshots), you can put this snippet into your stylesheet:
 
 ```less
 /**
